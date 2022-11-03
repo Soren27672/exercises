@@ -16,7 +16,7 @@ function selectExercises(number = 5) {
     return toDo;
 }
 
-selected.textContent = selectExercises().reduce((ac,cv) => ac += cv);
+selected.textContent = selectExercises(/* HERE HERE HERE*/).reduce((ac,cv) => ac += cv);
 
 function randomElement(array) {
     return array[randomInt(0,array.length-1)];
